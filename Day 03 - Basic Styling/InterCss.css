@@ -1,0 +1,33 @@
+.box-model {
+  background-color: grey;
+  border: solid 5px red;
+  /* margin: 10px; this values are top -> right -> bottom -> left */
+  padding: 20px;
+}
+
+.fixed-position {
+  position: fixed;
+  background-color: purple;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.absolute-position {
+  position: absolute;
+  background-color: purple;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.relative-position {
+  position: relative;
+  background-color: purple;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}

@@ -1,0 +1,44 @@
+.logo{
+    margin: 5px;
+    border-radius: 50px;
+    width: 100px;
+    
+}
+
+nav{
+
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    padding: 30px;
+}
+
+.link{
+    border-radius: 5px;  
+    color:rgb(220,149,59);
+    text-decoration: none;
+}
+
+.link:hover{
+    background-color: rgb(252,171,53);
+    color: rgb(62,28,10);
+    padding: 5px 25px;
+}
+
+.dropdown ol{
+    list-style-type: none;
+    display: none;
+}
+
+.dropdown:hover ol{
+    position: absolute;
+    display: block;
+}
+
+body{
+    background-color: rgb(201, 180, 77);
+}
+h1{
+    margin: 0px;
+    color:rgb(54, 55, 41);
+}
